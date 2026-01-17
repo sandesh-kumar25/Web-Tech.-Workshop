@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE Students [
+    <!ELEMENT students (student+)>
+    <!ELEMENT student (name, age, course)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT course (#PCDATA)>
+    ]>
+<students></students>
+<student></student>   
